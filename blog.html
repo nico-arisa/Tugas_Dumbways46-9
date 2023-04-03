@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Batch 46</title>
+        <link href="./assets/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--navbar-->
+        <nav>
+            <div class="nav-left">
+                <ul>
+                        <img src="./assets/image/logo.png" alt="logo">
+                    <li>
+                        <a href="./index.html">Home</a> 
+                    </li>
+                    <li>
+                        <a href="blog.html">My Project</a>
+                    </li>
+                </ul>
+            </div>
+           <div class="nav-right"> 
+            <a href="contact-me.html">Contact Me</a>
+           </div>
+        </nav>
+        <h1 class="getin">
+            ADD MY PROJECT
+        </h1>
+        <!--form-->
+        <form>
+            <div>
+                <label for="project-name">Name</label>
+                <input type="text" id="project-name">
+            </div>
+            
+            <div class="date">
+                <div>
+                    <label for="start-date">Start Date</label>
+                    <input type="date" id="start-date">
+                </div>
+                <div>
+                    <label for="end-date">End Date</label>
+                    <input type="date" id="end-date">
+                </div>
+            </div>
+
+            <div>
+                <label for="message">Description</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+
+            <div>
+                <label for="">Technologies</label>
+            </div>
+
+            <div>
+                <div class="container-checklist">
+
+                    <div>
+        
+                        <div class="card-checklist">
+                            <input type="checkbox" id="nodeJs">
+                            <label for="nodeJs">Node Js</label>
+                        </div>
+                        <div class="card-checklist">
+                            <input type="checkbox" id="nextJs">
+                            <label for="nextJs">Next Js</label>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="card-checklist">
+                            <input type="checkbox" id="reactJs">
+                            <label for="reactJs">React Js</label>
+                        </div>
+                        <div class="card-checklist">
+                            <input type="checkbox" id="typeScript">
+                            <label for="typeScript">Type Script</label>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div>
+                    <label for="">Upload image</label>
+                    <input type="file" name="" id="up-img">
+                </div>
+                <button onclick="getData()">Submit</button>
+            </div>
+        </form>
+    </body>
+    <script src="./assets/js/script.js"></script>
+</html>

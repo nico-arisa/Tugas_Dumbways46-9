@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    background-color: #e3e7eb;
+}
+
+/* navbar styling */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    background-color: #f4f3f3;
+}
+
+.nav-left ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-left ul li{
+    margin-right: 30px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-left a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-right a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: black;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+nav img{
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+
+/*  card styling       */
+.card{
+    border: 0.5px solid whitesmoke; padding: 10px; margin: 100px auto; width: 1200px; border-radius: 15px; box-shadow:0 0 30px #3d3d3d;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fefefe;
+}
+
+.content{
+    padding: 100px;
+}
+
+.contact{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.CV{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+.social{
+    padding-top: 50px;
+}
+
+.social a {
+    padding-right: 30px;
+}
+
+.foto{
+    border-radius: 10px;
+    box-shadow: 0 0 30px #a7aaad;
+    padding: 0 0 10px 0;
+    margin: 30px;
+}
+.pasfoto{
+    border-radius: 10px 10px 0 0;
+}
+.nama-bawah{
+    text-align: center;
+}
+
+/* contact me styling */
+form {
+    width: 350px;
+    margin: 50px auto;
+}
+
+form div{
+    margin-top: 10px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input, select, textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #eaeaea;
+    padding: 10px;
+    margin-top: 5px;
+    box-shadow: 0 0 5px #a7aaad;
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+}
+
+button{
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    float: right;
+}
+.getin{
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*detail blog*/
+.head h1{
+    text-align: center;
+}
+.grid{
+    display: flex;
+    align-items: start;
+    justify-content: stretch;
+    padding: 0 40px;
+    margin: 100px ;
+    flex-wrap: wrap;
+}
+
+
+.content-left img{
+    width: 800px;
+}
+
+.content-right{
+    display: flex;
+    padding-left: 50px;
+    font-size: 20px;
+    flex-direction: column;
+
+}
+.tech span{
+    padding-left: 10px;
+}
+.article{
+    display: flex;
+    text-align: justify;
+}
+
+
+.date {
+    display: flex;
+}
+
+.container-checklist {
+    display: flex;
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+
+.card-checklist {
+    display: flex;
+    margin-right: 30px;
+}
+
+.card-checklist input {
+    outline: none;
+}
+
+
+
