@@ -7,7 +7,7 @@ function getData(){
     let message = document.getElementById("message").value
     
 // validation
-    if(name == ""){
+    if(name == ""|| !name){
         return alert("Nama Harus Di isi!")
     } else if(email == ""){
         return alert("email Harus Di isi!")

@@ -121,12 +121,13 @@ textarea{
 
 button{
     background-color: black;
-    padding: 10px 20px;
+    padding: 10px 30px;
     color: white;
     border: none;
-    border-radius: 5px;
-    margin-top: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
     float: right;
+    font-weight: bold;
 }
 .getin{
     text-align: center;
@@ -164,27 +165,85 @@ button{
 .article{
     display: flex;
     text-align: justify;
+    padding-left: 0;
 }
 
 
 .date {
     display: flex;
 }
-
-.container-checklist {
-    display: flex;
-    padding-top: 0;
-    margin-bottom: 20px;
+.end-date{
+    padding-left: 10px;
 }
 
-.card-checklist {
-    display: flex;
-    margin-right: 30px;
+.container-tech {
+    display: grid;
+    grid-template-columns: 175px 175px;
+    list-style-type: none;
+    padding: 10px;
 }
 
-.card-checklist input {
-    outline: none;
+.container-tech input{
+    width: auto;
 }
 
+.container-article-myproject{
+    background-color: #f8f8f8;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
 
+.article-myproject{
+    padding: 0px 60px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+}
+.name-myproject{
+    display: flex  ;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+.card-myproject{
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #a7aaad;
+    padding: 10px 20px;
+    margin: 50 10px;
+}
 
+.card-myproject img{
+    width: 100%;
+    border-radius: 10px;
+    height: 266.14px;
+    
+}
+
+.logo-myarticle span svg{
+    height: 30px;
+    width: 30px;
+    padding: 10px 10px 0px 5px;
+}
+
+.button-edit, .button-delete{
+    background-color: black;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 5px;
+    font-weight: bold;
+}
+.button-card-myarticle{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.card-myproject h3 a{
+    text-decoration: none;
+    color: black;
+}
