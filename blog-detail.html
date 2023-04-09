@@ -2,25 +2,46 @@
     <head>
         <title>Batch 46</title>
         <link href="./assets/css/style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
     </head>
     <body>
-        <!--navbar-->
-        <nav>
-            <div class="nav-left">
-                <ul>
-                        <img src="./assets/image/logo.png" alt="logo">
-                    <li>
-                        <a href="./index.html">Home</a> 
-                    </li>
-                    <li>
-                        <a href="blog.html">My Project</a>
-                    </li>
-                </ul>
-            </div>
-           <div class="nav-right"> 
-            <a href="contact-me.html">Contact Me</a>
-           </div>
-        </nav>
+                <!--navbar-->
+                <nav>
+                    <div class="nav-left">
+                        <ul>
+                                <img src="./assets/image/logo.png" alt="anu" class="logoimg">
+                            <li>
+                                <a href="./index.html">Home</a> 
+                            </li>
+                            <li>
+                                <a href="blog.html">My Project</a>
+                            </li>
+                            <li>
+                                <a href="testimonials.html">Testimonials</a>
+                            </li>
+                        </ul>
+                    </div>
+                   <div class="nav-right nav-list"> 
+                    <a href="contact-me.html">Contact Me</a>
+                   </div>
+                   <div class="nav-right-bar" id="barsmenu">
+                    <button onclick="openHumberger()" style="background-color: transparent; border: none; cursor: pointer;" class="button-ham">
+                      <i class="fa-solid fa-bars"></i>
+                    </button>
+                  </div>
+                </nav>
+                <div class="humberger-nav-container" id="humberger-nav-container">
+                    <a href="index.html" class="humberger-nav-active">Home</a>
+                    <a href="blog.html">My Project</a>
+                    <a href="testimonials.html">Testimonials</a>
+                    <a href="contact-me.html"><span class="hum-contact">Contact Me</span></a>
+                  </div>
         <div class="head">
             <h1>
                 Dumbways Web App
@@ -66,4 +87,5 @@
         
     </body>
     <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/navbar.js"></script>
 </html>
