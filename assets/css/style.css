@@ -162,10 +162,20 @@ button{
 .tech span{
     padding-left: 10px;
 }
+.tech span svg{
+    height: 30px;
+    width: 30px;
+    padding: 10px 10px 0px 5px;
+    align-items: center ;
+    justify-content: center;
+}
+
+
 .article{
     display: flex;
     text-align: justify;
     padding-left: 0;
+    padding-top: 80px;
 }
 
 
