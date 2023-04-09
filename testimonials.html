@@ -43,11 +43,23 @@
                   </div>
                 <div class="container-testi">
                         <h1 style="text-align: center;">My Testimonial</h1>
+           <div class="rate-area">
+            <div class="all-area">
+                <button onclick="renderData()" class="rate-button">All Rating</button>
+            </div>
+            <div class="rating-area">
+                <button onclick="filterRating(1)" class="rate-button">Rating 1</button>
+                <button onclick="filterRating(2)" class="rate-button">Rating 2</button>
+                <button onclick="filterRating(3)" class="rate-button">Rating 3</button>
+                <button onclick="filterRating(4)" class="rate-button">Rating 4</button>
+                <button onclick="filterRating(5)" class="rate-button">Rating 5</button>
+            </div>
+        </div>
                     <div class="testi" id="testi">
             
                     </div>
                 </div>  
         <script src="./assets/js/navbar.js"></script>  
-        <script src="./assets/js/testimonials.js"></script>
+        <script src="./assets/js/testimonialsrate.js"></script>
     </body>
 </html>
